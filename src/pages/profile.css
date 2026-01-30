@@ -1,0 +1,46 @@
+/* Make placeholder text black */
+input::placeholder,
+select::placeholder {
+    color: black !important;
+    opacity: 1 !important;
+}
+
+/* Make dropdown text black */
+select {
+    color: black !important;
+}
+
+/* Make section headers black by default */
+h2, h3 {
+    color: black !important;
+}
+
+/* Make checkbox labels black */
+label {
+    color: black !important;
+}
+
+/* Make existing text black */
+body, p, div {
+    color: black !important;
+}
+
+/* Style the input fields to show black text */
+input, select {
+    color: black !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1a1a1a inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
